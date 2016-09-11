@@ -1,0 +1,5 @@
+##获取python 当前执行版本
+>>> print(sys.path)
+['/Applications/PyCharm CE.app/Contents/helpers/pydev', '/Users/shawn/eclipse_workspace_pdev_group/pdev_v1', '/Applications/PyCharm CE.app/Contents/helpers/pydev', '/System/Library/Frameworks/Python.framework/Versions/2.6/lib/python26.zip', '/System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6', '/System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-darwin', '/System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac', '/System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/plat-mac/lib-scriptpackages', '/System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python', '/System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-tk', '/System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-old', '/System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/lib-dynload', '/Library/Python/2.6/site-packages', '/System/Library/Frameworks/Python.framework/Versions/2.6/Extras/lib/python/PyObjC', '/Users/shawn/eclipse_workspace_pdev_group/pdev_v1']
+
+##
