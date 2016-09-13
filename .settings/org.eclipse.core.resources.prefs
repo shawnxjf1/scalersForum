@@ -2,4 +2,4 @@ eclipse.preferences.version=1
 encoding//src/pengyong/bbs.py=utf-8
 encoding//src/scalers/readHtml.py=utf-8
 encoding//src/scalers/request_cookie.py=utf-8
-encoding//src/scalers/test.py=utf-8
+encoding//src/test/test.py=utf-8

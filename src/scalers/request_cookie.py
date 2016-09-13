@@ -17,12 +17,9 @@ import os
 import thread
 from util import cookieUtil
 
-'''
-chrome没有登录时候的cookie
-"o_cookie=4865368; _ga=GA1.2.2096652587.1443268803; uniqueuid=a7badc8eca57a3ce3a1964bb58fb9ea4; ptui_loginuin=4865368; ptcz=26a7968648ebdc84b4d9c10c3edfd1839326f206f404a5ad124408c5d865f2f8; pt2gguin=o0004865368; pgv_pvid=6712657600; MANYOU_SESSIONID_bf895=a82f802c7ead744a7fc6ba6a6ee75c41; qm_sid=71b3946af329f576ac6acfe03374595f,cmUooF9Z9EoE.; qm_username=4865368; pt_clientip=5ff2b4a61c4456f6; pt_serverip=bc3a0abf0659585d; ptisp=ctc"
-'''
+
 # 登录之后的cookie
-# "o_cookie=4865368; _ga=GA1.2.2096652587.1443268803; uniqueuid=a7badc8eca57a3ce3a1964bb58fb9ea4; pgv_pvid=6712657600; qm_sid=71b3946af329f576ac6acfe03374595f,cmUooF9Z9EoE.; qm_username=4865368; pt_clientip=5ff2b4a61c4456f6; pt_serverip=bc3a0abf0659585d; ptui_loginuin=4865368; ptisp=ctc; RK=TAdmR9u4E9; ptcz=26a7968648ebdc84b4d9c10c3edfd1839326f206f404a5ad124408c5d865f2f8; pt2gguin=o0004865368; uin=o0004865368; skey=@Kzirr9L8u; p_uin=o0004865368; p_skey=ZP7UtB-rTMXdSuAXNIe4QLa5Am897YfSpNyspEVpiXk_; pt4_token=8AH2JIes4c8lQpotLs5DBw__; MANYOU_SESSIONID_bf895=a82f802c7ead744a7fc6ba6a6ee75c41; qqUser=%7B%22uin%22%3A4865368%2C%22nickName%22%3A%22shawn%22%7D; security_cookiereport=1445059910"
+# cookieStr 获取方式：1.打开chrom浏览器登录 scalers 群论坛。 2.打开开发者工具 输入 document.cookie 输出的字符串即对应的qq论坛cookie
 cookieStr = "pgv_pvid=8411115300; o_cookie=4865368; h_uid=H071608093a1; ptui_loginuin=shawn_angel@qq.com; pt2gguin=o0004865368; uin=o0004865368; skey=@R7plcYzq6; RK=PJcmRfuSHd; ptcz=f4ed2bdc97d0125ef7f6ade9566df37e9c50692755edaa9e668cbd977da0d45d; MANYOU_SESSIONID_bf895=f72b33e492abcff67eb75af754dee04d; qqUser=%7B%22uin%22%3A4865368%2C%22nickName%22%3A%22shawn%22%7D; uniqueuid=a7badc8eca57a3ce3a1964bb58fb9ea4; security_cookiereport=1472906994"
 
 ##attention  convertCookieStrToDict 使用这个函数前必须定义
