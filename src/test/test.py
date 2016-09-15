@@ -7,7 +7,7 @@ Created on 2015年10月10日
 @author: shawn
 '''
 import unittest
-from scalers import request_cookie
+from scalers import storePosts
 from util import cookieUtil
 
 #此测试用例可以执行。
@@ -20,7 +20,7 @@ class Test(unittest.TestCase):
         print('test unitest  teardown')
         
     #def testCookieToDict(self):
-    #   request_cookie.convertCookieStrToDict();
+    #   storePosts.convertCookieStrToDict();
 
     def testCookieToDict(self):
         print('testCookieToDict')

@@ -14,7 +14,6 @@ Created on 2015年10月13日
 import requests   ###requests 比urllib2简单,可以通过状态码和head对返回值进行处理
 #import Cookie
 import os
-import thread
 from util import cookieUtil
 
 
@@ -36,7 +35,7 @@ def openForumAndStoreToFile():
     # cookies = dict({"o_cookie":"4865368","_ga":"GA1.2.2096652587.1443268803","uniqueuid":"a7badc8eca57a3ce3a1964bb58fb9ea4","pgv_pvid":"6712657600","qm_sid":"71b3946af329f576ac6acfe03374595f,cmUooF9Z9EoE.","qm_username":"4865368","pt_clientip":"5ff2b4a61c4456f6","pt_serverip":"bc3a0abf0659585d","ptui_loginuin":"4865368","ptisp":"ctc","RK":"TAdmR9u4E9","ptcz":"26a7968648ebdc84b4d9c10c3edfd1839326f206f404a5ad124408c5d865f2f8","pt2gguin":"o0004865368","uin":"o0004865368","skey":"@Kzirr9L8u","p_uin":"o0004865368","p_skey":"ZP7UtB-rTMXdSuAXNIe4QLa5Am897YfSpNyspEVpiXk_","pt4_token":"8AH2JIes4c8lQpotLs5DBw__"})
     baseurl = "http://qgc.qq.com/309916014/t/"
     # baseurl1 = "http://qgc.qq.com/298172004/t/2?page=2"
-    rootdir = "scalersFormPost"
+    rootdir = "scalersForumPost"
     
     ##判断目录是否存在
     if not os.path.exists(rootdir):
@@ -95,9 +94,6 @@ def isHasNextPage(content):
         return True
     else:
         return False
-    
-
-
 
 if __name__ == '__main__':
     openForumAndStoreToFile()

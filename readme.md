@@ -1,3 +1,8 @@
+##新成员指南
+从github上下载源代码后
+1.运行storePosts.py 模块 ,程序会拉取成长贴存储到./scalers/scalersForumPost 文件夹下。
+2.运行readPosts.py模块，程序会从./scalers/scalersForumPost 文件夹下读取网页分析存储到 对应的exce中。
+
 ##项目运营形式
 1.自愿参与
 2.成员下载代码进行代码修改 （修改方式见 "编写和修改方式” 一节）。
@@ -13,6 +18,8 @@ git clone  https://github.com/shawnxjf1/scalersForum.git
 3.提交代码
 git remote add origin https://github.com/shawnxjf1/scalertalk_blog.git
 git push -u origin master
+
+4.环境：eclipse + pdev插件(shawn 使用的ide)，成员可以换成自己喜欢的ide
 
 ##工程结构
 1.scalers包为主体包.
