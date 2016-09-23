@@ -3,7 +3,7 @@
 1.运行storePosts.py 模块 ,程序会拉取成长贴存储到./scalers/scalersForumPost 文件夹下。
 2.运行readPosts.py模块，程序会从./scalers/scalersForumPost 文件夹下读取网页分析存储到 对应的exce中。
 3.查看源代码 比对运行结果 自己完善程序。
-4.有问题直接把问题写在 对应文件里，比如"shawn"会记录在 /doc/shawn/疑问问题.md 
+4.有问题直接把问题写在 对应文件里，比如"shawn"会记录在 /doc/shawn/疑问.md 
 
 ##项目运营形式
 1.自愿参与
@@ -38,7 +38,7 @@ xiangzi
 2.模块一定要说明该模块的作用 （一个模块只解决某一环节或者某一具体问题）
 3.每个函数需要保证测试通过且标明注释，在自己package中保留测试用例 比如在"xiangzi/test.py"中测试
 4.在/doc/ 文件夹下以自己文件命名 的文件中写上工作日志，如果内容多建一个文件夹  比如：
-/doc/xiangzi/疑问问题.md 
+/doc/xiangzi/疑问.md 
             ./工作日志.md
 
 ##技术点及其改进的地方
