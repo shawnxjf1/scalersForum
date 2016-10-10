@@ -17,7 +17,11 @@
 2.下载代码
 git clone  https://github.com/shawnxjf1/scalersForum.git
 
-3.提交代码
+3.本地提交
+git  add  ./
+git commit -m 'first commit'
+
+4.远程提交代码
 git remote add origin https://github.com/shawnxjf1/scalersForum.git
 git push -u origin master
 
