@@ -7,8 +7,9 @@ Created on 2015年10月10日
 @author: shawn
 '''
 import unittest
-from scalers import request_cookie
-from util import cookieUtil
+##eclipse里不需要带src 转换到pycharm 需要做两件事 1.mark project as root  2.import 时候从顶层文件写起
+from src.scalers import request_cookie
+from src.util import cookieUtil
 
 #此测试用例可以执行。
 class Test(unittest.TestCase):

@@ -14,7 +14,9 @@ Created on 2015年10月13日
 import requests   ###requests 比urllib2简单,可以通过状态码和head对返回值进行处理
 #import Cookie
 import os
+import  sys
 import thread
+sys.path.append('..')
 from util import cookieUtil
 
 
