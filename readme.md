@@ -1,3 +1,10 @@
+##新成员指南
+从github上下载源代码后
+1.运行storePosts.py 模块 ,程序会拉取成长贴存储到./scalers/scalersForumPost 文件夹下。
+2.运行readPosts.py模块，程序会从./scalers/scalersForumPost 文件夹下读取网页分析存储到 对应的exce中。
+3.查看源代码 比对运行结果 自己完善程序。
+4.有问题直接把问题写在 对应文件里，比如"shawn"会记录在 /doc/shawn/疑问.md 
+
 ##项目运营形式
 1.成员自愿参与
 2.成员下载代码进行代码修改 （修改方式见 "编写和修改方式” 一节）。
@@ -12,9 +19,15 @@
 2.下载代码
 git clone  https://github.com/shawnxjf1/scalersForum.git
 
-3.提交代码
-git remote add origin https://github.com/shawnxjf1/scalertalk_blog.git
+3.本地提交
+git  add  ./
+git commit -m 'first commit'
+
+4.远程提交代码
+git remote add origin https://github.com/shawnxjf1/scalersForum.git
 git push -u origin master
+
+4.环境：eclipse + pdev插件(shawn 使用的ide)，成员可以换成自己喜欢的ide
 
 ##工程结构
 1.scalers包为主体包.
@@ -31,7 +44,7 @@ xiangzi
 2.模块一定要说明该模块的作用 （一个模块只解决某一环节或者某一具体问题）
 3.每个函数需要保证测试通过且标明注释，在自己package中保留测试用例 比如在"xiangzi/test.py"中测试
 4.在/doc/ 文件夹下以自己文件命名 的文件中写上工作日志，如果内容多建一个文件夹  比如：
-/doc/xiangzi/疑问问题.md 
+/doc/xiangzi/疑问.md 
             ./工作日志.md
 
 ##技术点及其改进的地方
